@@ -23,8 +23,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS=" "
 
 # EvolutionX Flags
+EVO_BUILD_TYPE := COMMUNITY
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_MINI_GAPPS := true
 
 # Kernel
 $(call inherit-product, device/motorola/targets/include/kernel/source.mk)
